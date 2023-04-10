@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+<style>
+    body {
+
+        background-color: #F3F9FB;
+    }
+
+    .main {
+
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        width: 1330px;
+        justify-content: space-around;
+        background-color: #572B77;
+        color: white;
+
+    }
+</style>
+
+<body>
+    <div class="xx">
+        <form method="post" action="./" autocomplete="on">
+            <div class="main">
+                <img src="./logo.png" height="90px" width="90px" alt="">
+                <h3>COMSATS UNIVERSITY ISLAMABAD, SAHIWAL CAMPUS <br> G.T Road View Hotel, Sahiwal</h3>
+                <img src="./campus.png" height="120px" width="110px" alt="">
+                <br>
+            </div>
+            <h3 style="display:flex; justify-content:center;">Applicants Admission Form For
+                Fall/Spring 22</h3>
+            <h3 style="background-color: #4D176E; color: white; font-weight: bold; text-align: center;">Personal
+                Details Here</h3>
+            <strong style="margin-left: 5%;">Student Name: </strong>
+            <input type="text" size="60" required pattern="[A-Za-z]+([ ][A-Za-z]+)*"> <br><br>
+            <strong style="margin-left: 5%;">Father Name: &nbsp; </strong>
+            <input type="text" size="60" required pattern="[A-Za-z]+([ ][A-Za-z]+)*"><br><br>
+            <strong style="margin-left: 5%;">CNIC Number: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <input type="text" size="60" required pattern="\d{5}-\d{7}-\d{1}"><br><br>
+            <strong style="margin-left: 5%;">Mobile Number: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <input type="text" size="60" required pattern="^03\d{2}-\d{7}$"><br><br>
+            <strong style="margin-left: 5%;">Current address: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <input type="text" size="60" required><br><br>
+            <strong style="margin-left: 5%;">Permanent address: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <input type="text" size="60" required><br><br>
+            <strong style="margin-left: 5%;">Date of Birth: &nbsp; </strong>
+            <input type="date" name="" id="" required>
+            <strong style="margin-left: 20.4%;">Gender: &nbsp; </strong>
+            <select name="Gender">
+                <option value="m" selected>Male</option>
+                <option value="f">Female</option>
+                <option value="n">Not to say</option>
+            </select>
+            <br><br>
+            <strong style="margin-left: 5%;">Province: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
+            <select name="Province">
+                <option value="p" selected>Punjab</option>
+                <option value="kp">Khyber-Pakhtunkhwa</option>
+                <option value="b">Balochistan</option>
+                <option value="gb">Gilgit Biltistan</option>
+                <option value="s">Sindh</option>
+                <option value="k">Kashmir</option>
+            </select>
+
+            <strong style="margin-left: 17.5%;">Religion: &nbsp; </strong>
+            <select name="religion">
+                <option value="M" selected>Muslim</option>
+                <option value="N">Non-Muslim</option>
+            </select>
+            <br><br>
+
+            <h3 style="background-color:#4D176E; color: white; font-weight: bold; text-align: center;">Educational
+                Details Here</h3>
+            <table Border="6" style="margin-left: 70px;">
+                <thead>
+                    <tr>
+                        <th>Degree/Diploma</th>
+                        <th>Board/University</th>
+                        <th>Passing Year</th>
+                        <th>Obtained Marks/CGPA</th>
+                        <th>Total Marks/CGPA</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SSC/O-LVL/Matric</td>
+                        <td><input type="text" name="Institute" placeholder="Enter Your Institute name"></td>
+                        <td><input type="text" name="pyear" placeholder="Enter your Passing Year"></td>
+                        <td><input type="text" name="Omarks" placeholder="Enter your Obtained marks"></td>
+                        <td><input type="text" name="Tmarks" placeholder="Enter your Total marks"></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            HSSC/A-LVL/Equivalent</td>
+                        <td><input type="text" name="Institute" placeholder="Enter Your Institute name"></td>
+                        <td><input type="text" name="pyear" placeholder="Enter your Passing Year"></td>
+                        <td><input type="text" name="Omarks" placeholder="Enter your Obtained marks"></td>
+                        <td><input type="text" name="Tmarks" placeholder="Enter your Total marks"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            BA/BSC/Equivalent</td>
+                        <td><input type="text" name="Institute" placeholder="Enter Your Institute name"></td>
+                        <td><input type="text" name="pyear" placeholder="Enter your Passing Year"></td>
+                        <td><input type="text" name="Omarks" placeholder="Enter your Obtained marks"></td>
+                        <td><input type="text" name="Tmarks" placeholder="Enter your Total marks"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            MA/MAC/Equivalent</td>
+                        <td><input type="text" name="Institute" placeholder="Enter Your Institute name"></td>
+                        <td><input type="text" name="pyear" placeholder="Enter your Passing Year"></td>
+                        <td><input type="text" name="Omarks" placeholder="Enter your Obtained marks"></td>
+                        <td><input type="text" name="Tmarks" placeholder="Enter your Total marks"></td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            MS/MBA/Equivalent</td>
+                        <td><input type="text" name="Institute" placeholder="Enter Your Institute name"></td>
+                        <td><input type="text" name="pyear" placeholder="Enter your Passing Year"></td>
+                        <td><input type="text" name="Omarks" placeholder="Enter your Obtained marks"></td>
+                        <td><input type="text" name="Tmarks" placeholder="Enter your Total marks"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Any Other</td>
+                        <td><input type="text" name="Institute" placeholder="Enter Your Institute name"></td>
+                        <td><input type="text" name="pyear" placeholder="Enter your Passing Year"></td>
+                        <td><input type="text" name="Omarks" placeholder="Enter your Obtained marks"></td>
+                        <td><input type="text" name="Tmarks" placeholder="Enter your Total marks"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 style="background-color: #4D176E; color: white; font-weight: bold; text-align: center;">Candidate
+                Receipt &
+                Guardian Info
+            </h3>
+            <strong style="margin-left: 5%;">Received By: </strong>
+            <input type="date" size="80"> <br><br>
+            <strong style="margin-left: 5%;">Form Serial Number: &nbsp; </strong>
+            <input type="text" size="40" disabled placeholder="12345"><br><br>
+            <strong style="margin-left: 5%;">Parent/Guardian Name: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <input type="text" size="40"><br><br>
+            <strong style="margin-left: 5%;">Parent/Guardian Mobile Number: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <input type="text" size="40"><br><br>
+            <button type="submit" style="margin-left: 5%;">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 4vh 5vw;
+}
+header {
+  height: 15%;
+  display: flex;
+}
+.logo {
+  width: 20%;
+  background-color: rgb(238, 238, 89);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+}
+.header {
+  width: 80%;
+  background-color: rgb(241, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+}
+.message1 {
+  margin-top: 5px;
+  width: 30%;
+  height: 15vh;
+  background-color: rgb(238, 238, 89);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border:2px solid white !important;
+}
+.message2 {
+  margin-top: 5px;
+  width: 70%;
+  height: 15vh;
+  background-color: rgb(241, 44, 44);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border:2px solid white !important;
+}
+.container {
+  height: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.login {
+  height: 50%;
+  width: 95%;
+  background-color: rgb(66, 189, 66);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+
+}
+.signin {
+  height: 50%;
+  width: 95%;
+  background-color: rgb(66, 189, 66);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+}
+footer {
+  height: 15%;
+  background-color: coral;
+  border:2px solid white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-main {
+  height: 72%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.user {
+  height: 22%;
+  display: flex;
+}
+.userinfo {
+  width: 20%;
+  background-color: rgb(66, 189, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+}
+.userdata {
+  width: 80%;
+  background-color: rgb(24, 77, 77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+}
+.body {
+  height: 85%;
+  display: flex;
+  gap: 15px;
+}
+.action {
+  margin-top: 10px;
+  width: 25%;
+  background-color: rgb(86, 86, 161);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid white !important;
+}
+.message-pannel {
+  margin-top: 10px;
+  width: 75%;
+  background-color: dodgerblue;
+  border: 2px solid black;
+  padding: 5px;
+  overflow: scroll;
+  border:2px solid white !important;
+}
+.btn {
+  position: absolute;
+  height: 15%;
+  width: 10%;
+  right: 45%;
+  bottom: 20%;
+  color: black;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Alkatra', cursive;
+  cursor: pointer;
+}
